@@ -2,9 +2,9 @@
 using System.IO;
 using System.Net;
 using System.Text.RegularExpressions;
-using src.net;
+using App.net;
 
-namespace src.core {
+namespace App.core {
 	class Api {
 
 		// Constants

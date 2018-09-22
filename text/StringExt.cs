@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace src.text {
+namespace App.text {
 	static class StringExt {
 
 		// Methods

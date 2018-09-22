@@ -2,19 +2,19 @@
 using System.IO;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using src.core;
-using src.text;
+using App.core;
+using App.text;
 
 
-namespace src {
+namespace App {
 	class Program {
 
 		// Data
-		public static readonly string NOrg = "0rez";
-		public static readonly string NApp = "cmd-way2sms";
+		public static readonly string NOrg = "merferry";
+		public static readonly string NApp = "way2sms";
 		public static readonly string PUser = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 		public static readonly string PRoot = Path.Combine(PUser, NOrg, NApp);
-		public static readonly string ERoot = "OWAY2SMS_";
+		public static readonly string ERoot = "EWAY2SMS_";
 		private static readonly IDictionary<string, Action<Option>> FnDo = new Dictionary<string, Action<Option>>() {
 			["get"] = DoGet, ["set"] = DoSet, ["send"] = DoSend
 		};

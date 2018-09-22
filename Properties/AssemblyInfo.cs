@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("src")]
-[assembly: AssemblyDescription("Access Way2SMS from Windows Console.")]
+[assembly: AssemblyTitle("way2sms")]
+[assembly: AssemblyDescription("Send SMS through Way2SMS in Windows Console.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("0rez")]
-[assembly: AssemblyProduct("src")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("Merferry")]
+[assembly: AssemblyProduct("way2sms")]
+[assembly: AssemblyCopyright("Copyright (c) 2017 Merferry")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.0.0")]
-[assembly: AssemblyFileVersion("0.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

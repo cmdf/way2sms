@@ -1,12 +1,10 @@
-# way2sms
-
 Send SMS through [Way2SMS] in Windows Console.
+> 1. Download [exe file](https://github.com/winp/extra-bel/releases/download/1.0.0/ebel.cmd).
+> 2. Copy to `C:\Program_Files\Scripts`.
+> 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
+> 4. Register an account in [Way2SMS].
+> 5. Send SMS from *argument*, *file (redirect)*, or *command output (pipe)*.
 
-- Register an account in [Way2SMS].
-- Send SMS from *argument*, *file (redirect)*, or *command output (pipe)*.
-
-
-## usage
 
 ```batch
 > oway2sms <command> [<flags>]
@@ -136,15 +134,6 @@ Speak no evil.
 ```
 
 
-## history
-
-Originally, Mind was prepared to initiate the creation of a command-line interface for
-Facebook. It would have served the purpose of downloading all album photos, with a possible
-side-effect of being useful to other humans. Mind however was afraid to embark on the journey,
-and instead chose to visit the nearest fish pond. This is that. While the pond is not big, and
-neither the fish, it did give the lazy Mind a hard time when he mistakenly dropped all the
-food into pond, forgetting to attach them. Lesson learnt. But now there is more fish to catch
-in the other nearby ponds.
 
 
 ## reference

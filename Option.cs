@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace src {
+namespace App {
 	class Option {
 
 		// Data

@@ -1,7 +1,7 @@
 ﻿using System.Net;
 
 
-namespace src.net {
+namespace App.net {
 	static class WebResponseExt {
 
 		// Methods

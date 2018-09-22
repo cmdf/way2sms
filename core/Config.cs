@@ -1,7 +1,7 @@
 ﻿using System.IO;
 
 
-namespace src.core {
+namespace App.core {
 	class Config {
 
 		// Constants
