@@ -1,5 +1,5 @@
 Send SMS through [Way2SMS] in Windows Console.
-> 1. Download [exe file](https://github.com/winp/way2sms/releases/download/1.0.0/way2sms.exe).
+> 1. Download [exe file](https://github.com/cmdf/way2sms/releases/download/1.0.0/way2sms.exe).
 > 2. Copy to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 > 4. Register an account in [Way2SMS].
@@ -134,7 +134,7 @@ Speak no evil.
 ```
 
 
-[![Merferry](https://i.imgur.com/Jku5HkQ.jpg)](https://merferry.github.io)
+[![cmdf](https://i.imgur.com/Jku5HkQ.jpg)](https://cmdf.github.io)
 > References: [Way2SMS.com, a Way2Online venture][Way2SMS], [Kingster's Way2SMS unofficial PHP API][Way2SMS-API].
 
 [Way2SMS]: http://site24.way2sms.com/content/index.html
