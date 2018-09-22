@@ -7,7 +7,7 @@ Send SMS through [Way2SMS] in Windows Console.
 
 
 ```batch
-> oway2sms <command> [<flags>]
+> way2sms <command> [<flags>]
 
 :: commands:
 :: - get [-u|-p] [-0]
@@ -29,17 +29,17 @@ specified as environment variables, or as arguments.
 
 ```batch
 :: get all configuration values
-> oway2sms get
+> way2sms get
 
 :: get username configuration value
-> oway2sms get -u
+> way2sms get -u
 
 :: get configuration to file
-> oway2sms get > <config file>
-> oway2sms get > config.ini
+> way2sms get > <config file>
+> way2sms get > config.ini
 
 :: get configuration with mr. interactive
-> oway2sms get -0
+> way2sms get -0
 GET CONFIGURATION
 Username: 9876543210
 Password: incorrect
@@ -54,23 +54,23 @@ specified as environment variables, or as arguments.
 
 ```batch
 :: set all configuration values
-> oway2sms set -u <username> -p <password>
-> oway2sms set -u 9876543210 -p incorrect
+> way2sms set -u <username> -p <password>
+> way2sms set -u 9876543210 -p incorrect
 
 :: set password configuration value
-> oway2sms set -p <password>
-> oway2sms set -p incorrect
+> way2sms set -p <password>
+> way2sms set -p incorrect
 
 :: set configuration from file
 > echo username=<username>> <config file>
 > echo username=9876543210> config.ini
 > echo password=<password>>> <config file>
 > echo password=incorrect>> config.ini
-> oway2sms set < <config file>
-> oway2sms set < config.ini
+> way2sms set < <config file>
+> way2sms set < config.ini
 
 :: set configuration with mr. interactive
-> oway2sms set -0
+> way2sms set -0
 SET CONFIGURATION
 Username: <username>
 Username: 9876543210
@@ -88,35 +88,35 @@ are special options and can be specified as *arguments*, *environment variables*
 
 ```batch
 :: send sms using arguments
-> oway2sms send -u <username> -p <password> -t <to> -i <message(input)>
-> oway2sms send -u 9876543210 -p incorrect -t 8765432109 -i "Short Message Service!"
+> way2sms send -u <username> -p <password> -t <to> -i <message(input)>
+> way2sms send -u 9876543210 -p incorrect -t 8765432109 -i "Short Message Service!"
 
 :: send sms using environment variables
 > set OWAY2SMS_USERNAME=<username>
 > set OWAY2SMS_USERNAME=9876543210
 > set OWAY2SMS_PASSWORD=<password>
 > set OWAY2SMS_PASSWORD=incorrect
-> oway2sms send -t <to> -i <message (input)>
-> oway2sms send -t 8765432109 -i "Short Message Service!"
+> way2sms send -t <to> -i <message (input)>
+> way2sms send -t 8765432109 -i "Short Message Service!"
 
 :: send sms using configuration
-> oway2sms set -u <username> -p <password>
-> oway2sms set -u 9876543210 -p incorrect
-> oway2sms send -t <to> -i <message (input)>
-> oway2sms send -t 8765432109 -i "Short Message Service!"
+> way2sms set -u <username> -p <password>
+> way2sms set -u 9876543210 -p incorrect
+> way2sms send -t <to> -i <message (input)>
+> way2sms send -t 8765432109 -i "Short Message Service!"
 
 :: send sms with input from file text
 > ping <host> > <log file>
 > ping www.google.co.in > ping-www.google.co.in.log
-> oway2sms send -u <username> -p <password> -t <to> < <file>
-> oway2sms send -u 9876543210 -p incorrect -t 8765432109 < ping-www.google.co.in.log
+> way2sms send -u <username> -p <password> -t <to> < <file>
+> way2sms send -u 9876543210 -p incorrect -t 8765432109 < ping-www.google.co.in.log
 
 :: send sms with input from command output
-> ping <host> | oway2sms send -u <username> -p <password> -t <to>
-> ping www.google.co.in | oway2sms send -u 9876543210 -p incorrect -t 8765432109
+> ping <host> | way2sms send -u <username> -p <password> -t <to>
+> ping www.google.co.in | way2sms send -u 9876543210 -p incorrect -t 8765432109
 
 :: send sms with mr. interactive
-> oway2sms send -0
+> way2sms send -0
 SEND SMS
 Username: <username>
 Username: 9876543210
@@ -134,12 +134,8 @@ Speak no evil.
 ```
 
 
-
-
-## reference
-
-- [Way2SMS.com, a Way2Online venture][Way2SMS]
-- [Kingster's Way2SMS unofficial PHP API][Way2SMS-API]
+[![Merferry](https://i.imgur.com/Jku5HkQ.jpg)](https://merferry.github.io)
+> References: [Way2SMS.com, a Way2Online venture][Way2SMS], [Kingster's Way2SMS unofficial PHP API][Way2SMS-API].
 
 [Way2SMS]: http://site24.way2sms.com/content/index.html
 [Way2SMS-API]: https://github.com/kingster/Way2SMS-API
