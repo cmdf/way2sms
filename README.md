@@ -1,5 +1,5 @@
 Send SMS through [Way2SMS] in Windows Console.
-> 1. Download [exe file](https://github.com/winp/extra-bel/releases/download/1.0.0/ebel.cmd).
+> 1. Download [exe file](https://github.com/winp/way2sms/releases/download/1.0.0/way2sms.exe).
 > 2. Copy to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 > 4. Register an account in [Way2SMS].
